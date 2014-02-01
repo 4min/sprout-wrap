@@ -119,7 +119,7 @@ PATH
 
 DEPENDENCIES
   meta (>= 0)
-  osx (>= 0)
+  osx (>= 2.1.4)
   pivotal_workstation (>= 0)
   sprout-homebrew (>= 0)
   sprout-osx-apps (>= 0)

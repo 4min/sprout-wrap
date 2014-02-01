@@ -40,4 +40,4 @@ cookbook 'sprout-osx-rubymine',
   :path => 'sprout-osx-rubymine'
 
 cookbook 'sprout-homebrew',
-  :git => 'https://github.com/pivotal-sprout/sprout-homebrew.git'
+  :git => 'https://github.com/4min/sprout-homebrew.git'

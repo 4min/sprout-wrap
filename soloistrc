@@ -6,48 +6,48 @@ recipes:
 - sprout-osx-base::homebrew
 
 # settings
-- pivotal_workstation::sshd_on
-- pivotal_workstation::inputrc
-- sprout-osx-settings::defaults_fast_key_repeat_rate
-- pivotal_workstation::locate_on
-- sprout-osx-settings::global_environment_variables
+#- pivotal_workstation::sshd_on
+#- pivotal_workstation::inputrc
+#- sprout-osx-settings::defaults_fast_key_repeat_rate
+#- pivotal_workstation::locate_on
+#- sprout-osx-settings::global_environment_variables
 
 # development (general)
-- sprout-osx-base::workspace_directory
-- pivotal_workstation::unix_essentials
-- sprout-osx-git::git_projects
-- pivotal_workstation::git_config_global_defaults
-- sprout-osx-git::git_scripts
+#- sprout-osx-base::workspace_directory
+#- pivotal_workstation::unix_essentials
+#- sprout-osx-git::git_projects
+#- pivotal_workstation::git_config_global_defaults
+#- sprout-osx-git::git_scripts
 
 # development (rails)
-- sprout-osx-rbenv
-- pivotal_workstation::gem_setup
-- pivotal_workstation::mysql
-- pivotal_workstation::postgres
-- sprout-osx-apps::imagemagick
-- sprout-osx-apps::node_js
-- sprout-osx-apps::qt
+#- sprout-osx-rbenv
+#- pivotal_workstation::gem_setup
+#- pivotal_workstation::mysql
+#- pivotal_workstation::postgres
+#- sprout-osx-apps::imagemagick
+#- sprout-osx-apps::node_js
+#- sprout-osx-apps::qt
 
 # apps
-- pivotal_workstation::screen_sharing_app
-- sprout-osx-apps::shiftit
-- pivotal_workstation::mouse_locator
-- sprout-osx-apps::menumeters
-- sprout-osx-apps::ccmenu
-- pivotal_workstation::github_for_mac
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::keycastr
+#- pivotal_workstation::screen_sharing_app
+#- sprout-osx-apps::shiftit
+#- pivotal_workstation::mouse_locator
+#- sprout-osx-apps::menumeters
+#- sprout-osx-apps::ccmenu
+#- pivotal_workstation::github_for_mac
+#- sprout-osx-apps::iterm2
+#- sprout-osx-apps::keycastr
 
 # apps (editors)
-- sprout-osx-apps::textmate
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
+#- sprout-osx-apps::textmate
+#- sprout-osx-apps::textmate_bundles
+#- sprout-osx-apps::textmate_preferences
 
-- sprout-osx-apps::macvim
-- sprout-osx-apps::ctags_exuberant
+#- sprout-osx-apps::macvim
+#- sprout-osx-apps::ctags_exuberant
 
-- sprout-osx-apps::rubymine
-- sprout-osx-rubymine::preferences
+#- sprout-osx-apps::rubymine
+#- sprout-osx-rubymine::preferences
 
 - sprout-homebrew
 
@@ -72,8 +72,8 @@ node_attributes:
   sprout:
     homebrew:
       casks:
-        - bettertouchtool
-        - dropbox
+#        - bettertouchtool
+#        - dropbox
         - firefox
         - gitx-rowanj
         - google-chrome

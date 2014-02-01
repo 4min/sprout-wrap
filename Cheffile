@@ -4,7 +4,7 @@ cookbook 'meta',
   :path => 'site-cookbooks/meta'
 
 cookbook 'sprout-osx-rbenv',
-  :git => 'https://github.com/pivotal-sprout/sprout.git',
+  :git => 'https://github.com/4min/sprout.git',
   :path => 'sprout-osx-rbenv'
 
 cookbook 'sprout-osx-git',
@@ -40,4 +40,4 @@ cookbook 'sprout-osx-rubymine',
   :path => 'sprout-osx-rubymine'
 
 cookbook 'sprout-homebrew',
-  :git => 'https://github.com/4min/sprout.git'
+  :git => 'https://github.com/pivotal-sprout/sprout-homebrew.git'

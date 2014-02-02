@@ -10,12 +10,25 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::finder_display_full_path
 - sprout-osx-settings::global_environment_variables
+- sprout-osx-apps::nosleep
+
 
 # development (general)
 #- sprout-osx-base::workspace_directory
 - pivotal_workstation::unix_essentials
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-apps::sourcetree
+
+#environments
+- sprout-osx-apps::cyberduck
+- sprout-osx-apps::gpgtools
+- sprout-osx-apps::p7zip
+
+#productivity
+- sprout-osx-apps::evernote
+- sprout-osx-apps::google_drive
+- sprout-osx-apps::google_voice_and_video
+- sprout-osx-apps::hipchat
 
 # apps
 - sprout-osx-apps::iterm2

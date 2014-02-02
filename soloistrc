@@ -19,10 +19,11 @@ recipes:
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-apps::sourcetree
 
-#environments
+#sysadmin
 - sprout-osx-apps::cyberduck
 - sprout-osx-apps::gpgtools
 - sprout-osx-apps::p7zip
+- sprout-osx-apps::royaltsx
 
 #productivity
 - sprout-osx-apps::evernote

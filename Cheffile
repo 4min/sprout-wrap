@@ -41,3 +41,6 @@ cookbook 'sprout-osx-rubymine',
 
 cookbook 'sprout-homebrew',
   :git => 'https://github.com/4min/sprout-homebrew.git'
+
+cookbook 'chef-rvm',
+  :git => 'https://github.com/fnichol/chef-rvm.git'

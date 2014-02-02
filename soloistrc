@@ -10,7 +10,7 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::finder_display_full_path
 - sprout-osx-settings::global_environment_variables
-- sprout-osx-apps::nosleep
+- sprout-osx-apps::insomniax
 
 
 # development (general)
@@ -40,7 +40,6 @@ recipes:
 
 # apps (editors)
 - sprout-osx-apps::sublime_text3
-
 - sprout-osx-apps::macvim
 - sprout-osx-apps::ctags_exuberant
 

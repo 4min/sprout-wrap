@@ -26,6 +26,7 @@ recipes:
 - sprout-osx-apps::royaltsx
 
 #productivity
+- sprout-osx-apps::msoffice
 - sprout-osx-apps::evernote
 - sprout-osx-apps::google_drive
 - sprout-osx-apps::google_voice_and_video
